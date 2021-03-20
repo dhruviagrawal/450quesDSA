@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//Complexity O(n)
 int minJumps(int a[],int n)
 {
     if(a[0]==0) return -1;
