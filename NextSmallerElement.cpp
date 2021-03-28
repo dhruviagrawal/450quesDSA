@@ -34,7 +34,7 @@ int main()
     vector<long long int>a(n),res;
     for(int i=0;i<n;i++)
     cin>>a[i];
-    res=nextLargerElement(a,n);
+    res=nextSmallerElement(a,n);
     for(int i=0;i<n;i++)
     cout<<res[i]<<" ";
     return 0;
